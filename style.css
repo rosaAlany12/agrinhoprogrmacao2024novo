@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.social {
+    list-style-type: none;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+}
