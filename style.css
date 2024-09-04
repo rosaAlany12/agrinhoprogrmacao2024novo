@@ -1,35 +1,72 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: orange;
+.cabeçalho-imagem {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 10px;
-}
-
-.logo {
-    font-size: 24px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-section {
-    padding: 20px;
-}
-
-.social {
-    list-style-type: none;
-}
-
-footer {
-    background-color: lightgreen;
     text-align: center;
+}
+
+.cabeçalho-titulo-principal {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.cabeçalho-titulo-secundario {
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+}
+
+
+.campo-busca {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.campo-busca input {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.campo-busca button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.microfone{
+    width: 250px;
+}
+
+
+.sobre-nos-produtos {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #4A8F4A;
+    color: white;
+}
+
+.sobre-nos, .nossos-produtos {
+    width: 40%;
+}
+
+.rodapé {
+    text-align: center;
+    padding: 20px;
+    background-color: #4A8F4A;
+    color: white;
+}
+
+.whats{
+    width: 100px;
+}
+.email{
+    width: 120px;
 }
